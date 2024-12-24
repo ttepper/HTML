@@ -1,0 +1,275 @@
+body 
+{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header 
+{
+    background: linear-gradient(45deg, #7e7d7d, #fdfdfd);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 
+{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav 
+{
+    margin-top: 10px;
+}
+
+nav a 
+{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero 
+{
+    background-image: url('https://wallpapercat.com/w/full/a/0/3/1401492-2940x1960-desktop-hd-black-and-white-chicago-skyline-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h2 
+{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p 
+{
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero button 
+{
+    background-color: #2e2c2c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s;
+    margin-top: 70px;
+}
+
+.hero button:hover 
+{
+    background-color: #0e0e0e;
+}
+
+.products 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.product-card 
+{
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-card img 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 
+{
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.product-card p 
+{
+    margin: 5px 0;
+    color: #666;
+}
+
+.product-card button 
+{
+    background-color: #080808;
+    color: rgb(247, 246, 246);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.product-card button:hover 
+{
+    background-color: #ff8a00;
+}
+
+footer 
+{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+footer p 
+{
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a 
+{
+    color: #276fa0;
+    text-decoration: none;
+}
+
+/* =====================================
+   CONTACT PAGE STYLES
+   ===================================== */
+   .contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .contact p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    margin: 8px 0;
+    color: #333;
+  }
+  
+
+
+  /* Contact Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ff8a00;
+  }
+
+  /* faded */
+
+  /* Fades the page IN when applied */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards ease-in;
+  }
+  
+  @keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Fades the page OUT when applied */
+  .fade-out {
+    opacity: 1;
+    animation: fadeOut 0.5s forwards ease-out;
+  }
+  
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* style for about page */
+  .about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  
